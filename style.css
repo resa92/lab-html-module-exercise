@@ -1,0 +1,135 @@
+/*@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');*/
+
+#container  {
+  color: #fff;
+  text-decoration: none;
+}
+body  {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
+}
+/*NAV BAR*/
+nav {
+  background-color: #C12127;
+  color: rgb(255,255,255,0.8);
+  padding-top: 15px;
+  height: 35px;
+}
+nav a {
+  color: rgb(255,255,255,0.8);
+  vertical-align: text-bottom;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.top-links  {
+  /*display: inline-block;*/
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  position: relative;
+  bottom: 20px;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  list-style-type: none;
+}
+.clearfix {
+  clear: both;
+}
+/*HEADER*/
+header {
+  background-color: rgb(32,101,136);
+  background-image: url(https://static.npmjs.com/images/hero-cityscape.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  color: white;
+}
+.text {
+  margin: 0 auto;
+  text-align: left;
+  width: 450px;
+  position: relative;
+  right: 200px;
+}
+.sb {
+  height: 100px;
+  width: 100%;
+  display: inline-block;
+}
+.logo {
+  width: 10%;
+  padding: 10px 0 0 15px;
+  float: left;
+}
+
+input {
+ background-color:  rgb(31, 82, 111);
+ color: grey;
+ border-color: rgb(57, 165, 228);
+ width: 70%;
+ margin: 20px 10px 0 5px;
+ padding: 10px;
+ float: left;
+ position: relative;
+ bottom: 10px;
+
+}
+.log  {
+  width: 17%;
+  float: right;
+  padding-left: 10px; 
+  position: relative;
+  bottom: 20px;
+}
+.bear {
+  width: 3%;
+  float: right;
+  position: relative;
+ bottom: 45px;
+ right: 15px;
+}
+
+.button-1 {
+  color: white;
+  background-color: rgb(255, 123, 0);
+  border: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+  line-height: 30px;
+  padding: 10px 30px;
+  text-decoration: none;
+  width: 100px;
+
+}
+/*SECTION 1*/
+.s1 {
+  background-color: rgb(39,53,71);
+  color: #fff;
+  height: 700px;
+  width: 100%;
+  display: inline-block;
+}
+.team {
+  width: 500px;
+  margin: 0 auto;
+  float: left;
+  position: relative;
+  top: 150px;
+  left: 250px;
+}
+.text-2 {
+  width: 300px;
+  margin: 0 auto;
+  float: left;
+  position: relative;
+  top: 150px;
+  left: 300px;
+}
