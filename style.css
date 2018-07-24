@@ -52,10 +52,13 @@ header {
   height: 550px;
   color: white;
 }
+h1  {
+  font-size: 45px;
+}
 .text {
   margin: 0 auto;
   text-align: left;
-  width: 450px;
+  width: 550px;
   position: relative;
   right: 200px;
 }
@@ -109,27 +112,113 @@ input {
   width: 100px;
 
 }
+
+
 /*SECTION 1*/
 .s1 {
   background-color: rgb(39,53,71);
   color: #fff;
-  height: 700px;
+  height: 600px;
   width: 100%;
   display: inline-block;
 }
+h2{
+  font-size: 35px;
+}
 .team {
-  width: 500px;
+  width: 450px;
   margin: 0 auto;
   float: left;
   position: relative;
   top: 150px;
-  left: 250px;
+  left: 200px;
 }
 .text-2 {
-  width: 300px;
+  width: 450px;
   margin: 0 auto;
   float: left;
   position: relative;
-  top: 150px;
-  left: 300px;
+  top: 70px;
+  left: 320px;
 }
+.title  {
+  width: 300px;
+}
+.list  {
+  font-size: 15px;
+  line-height: 50px;
+  width: 500px;
+}
+.button-2 {
+  text-align: center;
+  color: white;
+  background-color: rgb(203, 56, 55);
+  border: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+  line-height: 30px;
+  padding: 10px 30px;
+  text-decoration: none;
+  width: 100px;
+}
+/*SECTION 2*/
+.s2  {
+  background-image: url(https://static.npmjs.com/images/npm-is-BOXES.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  margin: 0 0; 
+  position: static;
+  height: 500px;
+  width: 100%;
+  color: #fff;
+}
+.button-3 {
+  text-align: center;
+  color: white;
+  background-color: rgb(49, 68, 88);
+  border: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+  line-height: 30px;
+  padding: 10px 30px;
+  text-decoration: none;
+  width: 100px;
+}
+.text-3 {
+  width: 410px;
+  position: relative;
+  left: 150px;
+  top: 110px;
+}
+/*SECTION 3*/
+.s3 {
+  display: inline-block;
+}
+.heading  {
+
+  margin: 0 auto;
+  float: left;
+  position: relative;
+  left: 200px;
+  text-align: center;
+  background-color: #fff;
+}
+.build-title  {
+  color: rgb(83, 88, 98);
+}
+.links{
+  color: rgb(208, 74, 73);
+}
+.text-4 {
+  text-align: center;
+  color: rgb(135, 145, 156);
+}
+.col { 
+  float: left; 
+  margin: 0 auto;
+}
+.col-3 {
+  width: 30%;
+  padding: 20px;
+} 
